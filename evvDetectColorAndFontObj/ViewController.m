@@ -38,18 +38,13 @@
     
     for (UIView* eachView in box) {
         
-        if ([eachView conformsToProtocol:@protocol(UILayoutSupport) ] ) {
-            continue;     //_UILayoutGuide 타입이면 스킵.
-        }
-        
         //detect label color
         if ([eachView isKindOfClass:[UILabel class] ]) {
             
             UILabel* aLabel = (UILabel*)eachView;
             NSString* colorHexStr = [@"c:" stringByAppendingString: [UIColor hexStringFromColor: aLabel.textColor  ] ];
             aLabel.text = colorHexStr;
-         
-            
+             
         //skip for button
         } else if ([eachView isKindOfClass:[UIButton class] ]) {
        
@@ -78,13 +73,17 @@
             tipButton.titleLabel.textColor = [UIColor whiteColor];
             tipButton.backgroundColor = [UIColor blackColor];
             tipButton.userInteractionEnabled = YES;
-            //tipLabel.font = UIFont (name: "HelveticaNeue-UltraLight", size: 8)
             tipButton.titleLabel.font = [UIFont fontWithName:  @"BananaYeti-Extrabold Trial" size: 10 ];
             [eachView  addSubview:tipButton ];
             
             [tipButton addTarget:self action:@selector(moveMeSomewhere:) forControlEvents:UIControlEventTouchUpInside];
         }
     }
+    
+//    CASE ADD if needed.
+//    if ([eachView conformsToProtocol:@protocol(UILayoutSupport) ] ) {
+//        continue;     //_UILayoutGuide 타입이면 스킵.
+//    }
 }
 
 
