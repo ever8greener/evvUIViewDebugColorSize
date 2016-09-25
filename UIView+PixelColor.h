@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIView+PixelColor.h
 //  evvDetectColorAndFontObj
 //
 //  Created by artist on 9/25/16.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EvvUIHelper.h"
 
-@interface ViewController : UIViewController
+@interface UIView (PixelColor)
 
+- (UIColor *) colorOfPoint:(CGPoint)point;
 
 @end
-

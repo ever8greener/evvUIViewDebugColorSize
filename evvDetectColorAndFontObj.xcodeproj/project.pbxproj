@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D54D2F21D97E29600B206B6 /* UIColor+HexConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54D2F11D97E29600B206B6 /* UIColor+HexConvert.m */; };
 		6D818CEB1D9784B800507470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D818CEA1D9784B800507470 /* main.m */; };
 		6D818CEE1D9784B800507470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D818CED1D9784B800507470 /* AppDelegate.m */; };
 		6D818CF11D9784B800507470 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D818CF01D9784B800507470 /* ViewController.m */; };
 		6D818CF41D9784B800507470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D818CF21D9784B800507470 /* Main.storyboard */; };
 		6D818CF61D9784B800507470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D818CF51D9784B800507470 /* Assets.xcassets */; };
 		6D818CF91D9784B800507470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D818CF71D9784B800507470 /* LaunchScreen.storyboard */; };
+		6D818D021D9786CC00507470 /* EvvUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D818D011D9786CC00507470 /* EvvUIHelper.m */; };
+		6D818D081D978EA000507470 /* UIView+PixelColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D818D071D978EA000507470 /* UIView+PixelColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D54D2F01D97E29600B206B6 /* UIColor+HexConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexConvert.h"; sourceTree = "<group>"; };
+		6D54D2F11D97E29600B206B6 /* UIColor+HexConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexConvert.m"; sourceTree = "<group>"; };
 		6D818CE61D9784B800507470 /* evvDetectColorAndFontObj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = evvDetectColorAndFontObj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D818CEA1D9784B800507470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D818CEC1D9784B800507470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		6D818CF51D9784B800507470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D818CF81D9784B800507470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D818CFA1D9784B800507470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D818D001D9786CC00507470 /* EvvUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvvUIHelper.h; sourceTree = "<group>"; };
+		6D818D011D9786CC00507470 /* EvvUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvvUIHelper.m; sourceTree = "<group>"; };
+		6D818D061D978EA000507470 /* UIView+PixelColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PixelColor.h"; sourceTree = "<group>"; };
+		6D818D071D978EA000507470 /* UIView+PixelColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PixelColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,8 @@
 		6D818CDD1D9784B800507470 = {
 			isa = PBXGroup;
 			children = (
+				6D818D061D978EA000507470 /* UIView+PixelColor.h */,
+				6D818D071D978EA000507470 /* UIView+PixelColor.m */,
 				6D818CE81D9784B800507470 /* evvDetectColorAndFontObj */,
 				6D818CE71D9784B800507470 /* Products */,
 			);
@@ -63,6 +74,10 @@
 				6D818CEF1D9784B800507470 /* ViewController.h */,
 				6D818CF01D9784B800507470 /* ViewController.m */,
 				6D818CF21D9784B800507470 /* Main.storyboard */,
+				6D818D001D9786CC00507470 /* EvvUIHelper.h */,
+				6D818D011D9786CC00507470 /* EvvUIHelper.m */,
+				6D54D2F01D97E29600B206B6 /* UIColor+HexConvert.h */,
+				6D54D2F11D97E29600B206B6 /* UIColor+HexConvert.m */,
 				6D818CF51D9784B800507470 /* Assets.xcassets */,
 				6D818CF71D9784B800507470 /* LaunchScreen.storyboard */,
 				6D818CFA1D9784B800507470 /* Info.plist */,
@@ -152,6 +167,9 @@
 				6D818CF11D9784B800507470 /* ViewController.m in Sources */,
 				6D818CEE1D9784B800507470 /* AppDelegate.m in Sources */,
 				6D818CEB1D9784B800507470 /* main.m in Sources */,
+				6D54D2F21D97E29600B206B6 /* UIColor+HexConvert.m in Sources */,
+				6D818D081D978EA000507470 /* UIView+PixelColor.m in Sources */,
+				6D818D021D9786CC00507470 /* EvvUIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +318,7 @@
 				6D818CFF1D9784B800507470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
